@@ -45,7 +45,7 @@ def create_text_and_rect(text, color, background_color, **locations):
 
 
 # TODO: Here is a usage example for the rest of the text and rectangles that you'll create.
-title_text, text_rect = create_text_and_rect("~~Snake~~", GREEN, DARKRED,
+title_text, title_rect = create_text_and_rect("~~Snake~~", GREEN, DARKRED,
                                              center=(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2))
 
 # TODO: unpack the tuple from create_text_and_rect into a score_text and score_rect variable
