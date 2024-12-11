@@ -121,6 +121,7 @@ def handle_snake():
     global head_x
     global head_y
     global head_coord
+    global snake_dx, snake_dy
     # TODO: call body_coords.insert() method and pass in 0, head_coord
     # TODO: call body_coords.pop()
     # TODO: add snake_dx to head_x
