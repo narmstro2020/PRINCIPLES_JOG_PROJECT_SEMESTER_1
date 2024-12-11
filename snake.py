@@ -106,11 +106,10 @@ def move_snake(event):
 
 def check_quit(event):
     global running
-    # TODO: if event is equal to pygame.QUIT  set running to false
+    # TODO: if event.type is equal to pygame.QUIT  set running to false
 
 
 def check_events():
-    global running
     # TODO: create a for loop events is the variable pygame.event.get() is the list
         # TODO: call check_quit(event)
         # TODO: call move_snake(event)
