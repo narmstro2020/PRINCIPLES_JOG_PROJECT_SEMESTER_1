@@ -184,6 +184,7 @@ def blit_hud():
     pass  # TODO: remove this pass when done.
 
 def blit_assets():
+    global head_rect, apple_rect
     # TODO: for body in body_coords:
         # TODO: call pygame.draw.rect(display_surface, DARKGREEN, body)
     # TODO: set head_rect to pygame.draw.rect(display_surface, GREEN, head_coord)
